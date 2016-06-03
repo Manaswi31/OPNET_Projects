@@ -1,0 +1,14 @@
+#Format_Name,ecc_type,crc,preamble_bits,preamble_start_bit,preamble_end_bit,max_preamble_errors,header_bits,max_payload_errors
+NULL,FEC_NONE,FALSE,72,4,68,6,54,0
+POLL,FEC_NONE,FALSE,72,4,68,6,54,0
+HV1,FEC_1_3,FALSE,72,4,68,6,54,0
+HV2,FEC_2_3,FALSE,72,4,68,6,54,0
+HV3,FEC_NONE,FALSE,72,4,68,6,54,0
+DM1,FEC_2_3,TRUE,72,4,68,6,54,0
+DM3,FEC_2_3,TRUE,72,4,68,6,54,0
+DM5,FEC_2_3,TRUE,72,4,68,6,54,0
+DH1,FEC_NONE,TRUE,72,4,68,6,54,0
+DH3,FEC_NONE,TRUE,72,4,68,6,54,0
+DH5,FEC_NONE,TRUE,72,4,68,6,54,0
+wlan_control,QUICK_CHECK,TRUE,0,0,0,0,190,0
+wlan_mac,QUICK_CHECK,TRUE,0,0,0,0,190,0

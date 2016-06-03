@@ -1,0 +1,47 @@
+# Input file for ber_calc_log.i0.em.x
+# File format:  comment lines are allowed and
+# must begin with a '#' character.  Comment lines
+# are limited to 120 characters/line.
+
+# Data format:  each non-commented line consists of a 
+# value pair.  The first value is a ber value, followed
+# by at least one space, followed by the corresponding eb/no
+# value. ber_calc.i0.em.x limits the number of value
+# pairs to 100.  This can be changed by adjusting 
+# #define MAX_KNOWN_PAIRS to the desired count and rebuilding
+# from the command line using op_mkema -type ps -m ber_calc_log.
+
+# Other notes:  the modulation curve begins at an ebno value of
+# min(ebno) - EBNO_MIN_BUFFER,  and ends at max(ebno) + EBNO_MAX_BUFFER.
+# The distance between ebno points is the separation between begin and end points
+# divided by the number of desired points (user input).
+# This behavior can be altered by changing EBNO_MIN_BUFFER and/or
+# EBNO_MAX_BUFFER and rebuilding.
+
+# This file must be in the same directory as the executable to be located
+# by OPNET. Run the executable and enter the name of this file, followed
+# by the name of the new modulation curve. Enter the number of points 
+# desired between min and max. The new modulation curve will be created 
+# in the directory at the top of the mod_dirs list.
+
+#bers  		ebnos
+
+
+.1029  		5
+.0683  		6
+.0536   	6.5
+.0408  		7
+.0301  		7.5
+.02132  	8
+.01451  	8.5
+.00942		9
+.00580		9.5
+.003369		10
+.001831		10.5
+.0009232	11
+.0004283	11.5
+.0001809	12
+.00006878	12.5
+.00002324	13
+.000006882	13.5
+.000001756	14
