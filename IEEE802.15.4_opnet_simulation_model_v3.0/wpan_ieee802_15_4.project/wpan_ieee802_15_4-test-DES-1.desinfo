@@ -1,0 +1,490 @@
+test	1	0
+----------------- Static Environment Attribute Confirmations -----------------
+
+--------------------Name-------------------- --Source--- ------Value------
+ef                                           cmd line    wpan_ieee802_15_4-test-DES-1
+force_posix_locale                           default     TRUE
+mem_clear                                    default     0
+mem_opt.compact_pools                        default     TRUE
+mem_opt.pool_small_blocks                    default     TRUE
+mem_opt.grow_pool_planks                     default     TRUE
+mem_optimize                                 default     TRUE
+mem_shred                                    default     FALSE
+mod_dirs                                     env. file   /home/student/chaganti/op_models/,
+                                                         /home/student/chaganti/op_models/WBAN_802_15_6/ici/,
+                                                         /home/student/chaganti/op_models/WBAN_Imp,
+                                                         /home/student/chaganti/op_models/18.0/models/,
+                                                         /home/student/chaganti/op_models/18.0/models/std/,
+                                                         /home/student/chaganti/op_models/1501/1501/op_models/,
+                                                         /home/student/chaganti/op_models/IEEE802.15.4_opnet_simulation_model_v3.0/,
+                                                         /home/student/chaganti/op_models/1508/1508/op_models/,
+                                                         /home/student/chaganti/op_models/tcp_interface/,
+                                                         /home/student/chaganti/op_models/18.0/models/std/wireless/,
+                                                         /home/student/chaganti/op_models/18.0/models/std/tpal/,
+                                                         /home/student/chaganti/op_models/SuiteTooth/SuiteTooth_models/,
+                                                         /home/student/chaganti/op_models/SuiteTooth/SuiteTooth_scenarios/,
+                                                         /home/student/chaganti/op_models/ProjectWH.project/ici/,
+                                                         /home/student/chaganti/op_models/ProjectWH.project/packets/,
+                                                         /home/student/chaganti/op_models/18.0/models/std/rip,
+                                                         /home/student/chaganti/op_models/WBAN_802_15_6,
+                                                         /home/student/chaganti/op_models/18.0/models/std/ospf,
+                                                         /home/student/chaganti/op_models/802_15_6/,
+                                                         /home/student/chaganti/op_models/WBAN_802_15_6/packets/,
+                                                         /home/student/chaganti/op_models/18.0/models/std/utilities/oms,
+                                                         /home/student/chaganti/op_models/18.0/models/std/msdp,
+                                                         /home/student/chaganti/op_models/18.0/models/std/isis,
+                                                         /home/student/chaganti/op_models/18.0/models/std/ip,
+                                                         /home/student/chaganti/op_models/18.0/models/std/bridges,
+                                                         /home/student/chaganti/op_models/18.0/models/std/igrp,
+                                                         /home/student/chaganti/op_models/18.0/models/std/ethernet,
+                                                         /home/student/chaganti/op_models/18.0/models/std/fddi,
+                                                         /home/student/chaganti/op_models/18.0/models/std/eigrp,
+                                                         /home/student/chaganti/op_models/18.0/models/std/bgp,
+                                                         /home/student/chaganti/op_models/18.0/models/std/rrp,
+                                                         /home/student/chaganti/op_models/18.0/models/std/dhcp,
+                                                         /home/student/chaganti/op_models/18.0/models/std/mpls,
+                                                         /home/student/chaganti/op_models/18.0/models/std/,
+                                                         /home/student/chaganti/op_models/18.0/sys/,
+                                                         /home/student/chaganti/op_models/18.0/sys/lib,
+                                                         /home/student/chaganti/op_models/18.0/sys/include,
+                                                         /export/opt/riverbed/18.0/sys/lib,
+                                                         /export/opt/riverbed/18.0/sys/icons,
+                                                         /export/opt/riverbed/18.0/sys/images,
+                                                         /export/opt/riverbed/18.0/sys/include,
+                                                         /export/opt/riverbed/18.0/sys/images/maps,
+                                                         /export/opt/riverbed/18.0/sys/configs,
+                                                         /export/opt/riverbed/18.0/sys/help,
+                                                         /export/opt/riverbed/18.0/sys/utilities,
+                                                         /export/opt/riverbed/18.0/sys/utilities/3dnv,
+                                                         /export/opt/riverbed/18.0/sys/utilities/tmm,
+                                                         /export/opt/riverbed/18.0/sys/utilities/hla,
+                                                         /export/opt/riverbed/18.0/sys/utilities/sitl,
+                                                         /export/opt/riverbed/18.0/sys/reports/stylesheets,
+                                                         /home/student/chaganti/op_admin/ace_logs,
+                                                         /home/student/chaganti/op_admin/rmc/logs,
+                                                         /export/opt/riverbed/18.0/models/std/xdsl,
+                                                         /export/opt/riverbed/18.0/models/std/jammers,
+                                                         /export/opt/riverbed/18.0/models/std/rrp,
+                                                         /export/opt/riverbed/18.0/models/std/links,
+                                                         /export/opt/riverbed/18.0/models/std/mpls,
+                                                         /export/opt/riverbed/18.0/models/std/ip,
+                                                         /export/opt/riverbed/18.0/models/std/ip/utilities,
+                                                         /export/opt/riverbed/18.0/models/std/ip/ipv6_readiness,
+                                                         /export/opt/riverbed/18.0/models/std/ip/ipv6_readiness/en_US,
+                                                         /export/opt/riverbed/18.0/models/std/inet,
+                                                         /export/opt/riverbed/18.0/models/std/layer2_mss,
+                                                         /export/opt/riverbed/18.0/models/std/umts,
+                                                         /export/opt/riverbed/18.0/models/std/tcp,
+                                                         /export/opt/riverbed/18.0/models/std/mainframe,
+                                                         /export/opt/riverbed/18.0/models/std/mainframe/Excel,
+                                                         /export/opt/riverbed/18.0/models/std/mainframe/SAS,
+                                                         /export/opt/riverbed/18.0/models/std/mainframe/SAS/NeuMICS,
+                                                         /export/opt/riverbed/18.0/models/std/mainframe/SAS/MXG,
+                                                         /export/opt/riverbed/18.0/models/std/rip,
+                                                         /export/opt/riverbed/18.0/models/std/llm,
+                                                         /export/opt/riverbed/18.0/models/std/advisories,
+                                                         /export/opt/riverbed/18.0/models/std/advisories/Advisory_Logs,
+                                                         /export/opt/riverbed/18.0/models/std/ethernet,
+                                                         /export/opt/riverbed/18.0/models/std/legacy,
+                                                         /export/opt/riverbed/18.0/models/std/wimax,
+                                                         /export/opt/riverbed/18.0/models/std/tutorial_req,
+                                                         /export/opt/riverbed/18.0/models/std/tutorial_req/modeler,
+                                                         /export/opt/riverbed/18.0/models/std/tutorial_req/module,
+                                                         /export/opt/riverbed/18.0/models/std/tutorial_req/module/traffic,
+                                                         /export/opt/riverbed/18.0/models/std/tutorial_req/module/MVI_NetDoctor_configs,
+                                                         /export/opt/riverbed/18.0/models/std/tutorial_req/module/MVI_NetDoctor_configs/DataSet4_Complete,
+                                                         /export/opt/riverbed/18.0/models/std/tutorial_req/module/MVI_NetDoctor_configs/DataSet1_Layer3Only,
+                                                         /export/opt/riverbed/18.0/models/std/tutorial_req/module/MVI_NetDoctor_configs/DataSet3_MissingVLANInformation,
+                                                         /export/opt/riverbed/18.0/models/std/tutorial_req/module/MVI_NetDoctor_configs/DataSet2_ConfigOnly,
+                                                         /export/opt/riverbed/18.0/models/std/tutorial_req/module/3dnv,
+                                                         /export/opt/riverbed/18.0/models/std/tutorial_req/module/hla,
+                                                         /export/opt/riverbed/18.0/models/std/tutorial_req/module/configs,
+                                                         /export/opt/riverbed/18.0/models/std/tutorial_req/module/configs/baseline,
+                                                         /export/opt/riverbed/18.0/models/std/tutorial_req/module/configs/with_areas_broken,
+                                                         /export/opt/riverbed/18.0/models/std/tutorial_req/basic,
+                                                         /export/opt/riverbed/18.0/models/std/tutorial_req/basic/traffic,
+                                                         /export/opt/riverbed/18.0/models/std/tutorial_req/sentinel,
+                                                         /export/opt/riverbed/18.0/models/std/tutorial_req/sentinel/quickstart_configs,
+                                                         /export/opt/riverbed/18.0/models/std/lapb,
+                                                         /export/opt/riverbed/18.0/models/std/base,
+                                                         /export/opt/riverbed/18.0/models/std/include,
+                                                         /export/opt/riverbed/18.0/models/std/manet,
+                                                         /export/opt/riverbed/18.0/models/std/icons,
+                                                         /export/opt/riverbed/18.0/models/std/pnni,
+                                                         /export/opt/riverbed/18.0/models/std/ospf,
+                                                         /export/opt/riverbed/18.0/models/std/l2tp,
+                                                         /export/opt/riverbed/18.0/models/std/srp,
+                                                         /export/opt/riverbed/18.0/models/std/msdp,
+                                                         /export/opt/riverbed/18.0/models/std/atm,
+                                                         /export/opt/riverbed/18.0/models/std/eigrp,
+                                                         /export/opt/riverbed/18.0/models/std/atv,
+                                                         /export/opt/riverbed/18.0/models/std/bgp,
+                                                         /export/opt/riverbed/18.0/models/std/3dnv_examples,
+                                                         /export/opt/riverbed/18.0/models/std/traf_gen,
+                                                         /export/opt/riverbed/18.0/models/std/applications,
+                                                         /export/opt/riverbed/18.0/models/std/tpal,
+                                                         /export/opt/riverbed/18.0/models/std/isis,
+                                                         /export/opt/riverbed/18.0/models/std/web_reports,
+                                                         /export/opt/riverbed/18.0/models/std/rtp,
+                                                         /export/opt/riverbed/18.0/models/std/demands,
+                                                         /export/opt/riverbed/18.0/models/std/ike,
+                                                         /export/opt/riverbed/18.0/models/std/lte,
+                                                         /export/opt/riverbed/18.0/models/std/servers,
+                                                         /export/opt/riverbed/18.0/models/std/servers/agents,
+                                                         /export/opt/riverbed/18.0/models/std/servers/agents/NetIQ,
+                                                         /export/opt/riverbed/18.0/models/std/servers/agents/NetIQ/5.0,
+                                                         /export/opt/riverbed/18.0/models/std/servers/agents/NetIQ/4.0,
+                                                         /export/opt/riverbed/18.0/models/std/servers/agents/BMC,
+                                                         /export/opt/riverbed/18.0/models/std/servers/agents/BMC/nt,
+                                                         /export/opt/riverbed/18.0/models/std/servers/agents/BMC/unix,
+                                                         /export/opt/riverbed/18.0/models/std/servers/agents/OpenView,
+                                                         /export/opt/riverbed/18.0/models/std/servers/agents/OpenView/nt,
+                                                         /export/opt/riverbed/18.0/models/std/servers/agents/OpenView/unix,
+                                                         /export/opt/riverbed/18.0/models/std/servers/agents/Perfmon,
+                                                         /export/opt/riverbed/18.0/models/std/haipe,
+                                                         /export/opt/riverbed/18.0/models/std/lane,
+                                                         /export/opt/riverbed/18.0/models/std/bridges,
+                                                         /export/opt/riverbed/18.0/models/std/tdma,
+                                                         /export/opt/riverbed/18.0/models/std/example_networks,
+                                                         /export/opt/riverbed/18.0/models/std/example_networks/Modeler,
+                                                         /export/opt/riverbed/18.0/models/std/example_networks/Modeler/parallel_simulations,
+                                                         /export/opt/riverbed/18.0/models/std/example_networks/ModelerAE,
+                                                         /export/opt/riverbed/18.0/models/std/example_networks/Common,
+                                                         /export/opt/riverbed/18.0/models/std/example_networks/Common/traffic,
+                                                         /export/opt/riverbed/18.0/models/std/example_networks/Common/traffic/one_time_period,
+                                                         /export/opt/riverbed/18.0/models/std/example_networks/Common/traffic/time_varying,
+                                                         /export/opt/riverbed/18.0/models/std/utilities,
+                                                         /export/opt/riverbed/18.0/models/std/utilities/osc,
+                                                         /export/opt/riverbed/18.0/models/std/utilities/osc/en_US,
+                                                         /export/opt/riverbed/18.0/models/std/utilities/netdoctor,
+                                                         /export/opt/riverbed/18.0/models/std/utilities/netdoctor/en_US,
+                                                         /export/opt/riverbed/18.0/models/std/utilities/netdiff,
+                                                         /export/opt/riverbed/18.0/models/std/utilities/netdiff/config_file_diff_css,
+                                                         /export/opt/riverbed/18.0/models/std/utilities/flowan,
+                                                         /export/opt/riverbed/18.0/models/std/utilities/flowan/failure_impact_analysis,
+                                                         /export/opt/riverbed/18.0/models/std/utilities/flowan/capplan,
+                                                         /export/opt/riverbed/18.0/models/std/utilities/flowan/voip,
+                                                         /export/opt/riverbed/18.0/models/std/utilities/flowan/ipv6,
+                                                         /export/opt/riverbed/18.0/models/std/utilities/common,
+                                                         /export/opt/riverbed/18.0/models/std/utilities/oms,
+                                                         /export/opt/riverbed/18.0/models/std/utilities/oms/ets,
+                                                         /export/opt/riverbed/18.0/models/std/utilities/oms/ets/conn,
+                                                         /export/opt/riverbed/18.0/models/std/utilities/oms/ets/base,
+                                                         /export/opt/riverbed/18.0/models/std/utilities/oms/bgp,
+                                                         /export/opt/riverbed/18.0/models/std/utilities/oms/mdets,
+                                                         /export/opt/riverbed/18.0/models/std/utilities/oms/mdets/conn,
+                                                         /export/opt/riverbed/18.0/models/std/utilities/oms/mdets/base,
+                                                         /export/opt/riverbed/18.0/models/std/utilities/oms/mdets/include,
+                                                         /export/opt/riverbed/18.0/models/std/utilities/oms/peer,
+                                                         /export/opt/riverbed/18.0/models/std/utilities/oms/svc,
+                                                         /export/opt/riverbed/18.0/models/std/utilities/port_scan,
+                                                         /export/opt/riverbed/18.0/models/std/utilities/import,
+                                                         /export/opt/riverbed/18.0/models/std/utilities/import/imex_dste,
+                                                         /export/opt/riverbed/18.0/models/std/utilities/import/rci,
+                                                         /export/opt/riverbed/18.0/models/std/utilities/import/csv,
+                                                         /export/opt/riverbed/18.0/models/std/utilities/import/csv/config,
+                                                         /export/opt/riverbed/18.0/models/std/utilities/import/csv/interface_naming_rules,
+                                                         /export/opt/riverbed/18.0/models/std/utilities/import/ai,
+                                                         /export/opt/riverbed/18.0/models/std/utilities/import/vnes,
+                                                         /export/opt/riverbed/18.0/models/std/utilities/odb_vis,
+                                                         /export/opt/riverbed/18.0/models/std/utilities/inv,
+                                                         /export/opt/riverbed/18.0/models/std/utilities/inv/en_US,
+                                                         /export/opt/riverbed/18.0/models/std/utilities/netmapper,
+                                                         /export/opt/riverbed/18.0/models/std/utilities/groups,
+                                                         /export/opt/riverbed/18.0/models/std/utilities/packet_analyzer,
+                                                         /export/opt/riverbed/18.0/models/std/utilities/pnm,
+                                                         /export/opt/riverbed/18.0/models/std/utilities/design,
+                                                         /export/opt/riverbed/18.0/models/std/utilities/design/mpls,
+                                                         /export/opt/riverbed/18.0/models/std/utilities/design/igp_te,
+                                                         /export/opt/riverbed/18.0/models/std/utilities/design/base,
+                                                         /export/opt/riverbed/18.0/models/std/utilities/design/mpls_te,
+                                                         /export/opt/riverbed/18.0/models/std/utilities/design/mpls_qp,
+                                                         /export/opt/riverbed/18.0/models/std/utilities/design/lfa,
+                                                         /export/opt/riverbed/18.0/models/std/utilities/design/topo,
+                                                         /export/opt/riverbed/18.0/models/std/utilities/views,
+                                                         /export/opt/riverbed/18.0/models/std/utilities/ctr,
+                                                         /export/opt/riverbed/18.0/models/std/utilities/ctr/ext,
+                                                         /export/opt/riverbed/18.0/models/std/utilities/ctr/profiles,
+                                                         /export/opt/riverbed/18.0/models/std/utilities/ctr/en_US,
+                                                         /export/opt/riverbed/18.0/models/std/utilities/ctr/des_profiles,
+                                                         /export/opt/riverbed/18.0/models/std/utilities/device_creator,
+                                                         /export/opt/riverbed/18.0/models/std/utilities/device_creator/generic,
+                                                         /export/opt/riverbed/18.0/models/std/utilities/device_creator/vendor,
+                                                         /export/opt/riverbed/18.0/models/std/utilities/netone,
+                                                         /export/opt/riverbed/18.0/models/std/utilities/udr,
+                                                         /export/opt/riverbed/18.0/models/std/mobile_ip,
+                                                         /export/opt/riverbed/18.0/models/std/wireless,
+                                                         /export/opt/riverbed/18.0/models/std/wireless/smac,
+                                                         /export/opt/riverbed/18.0/models/std/wireless/wireless_wizard,
+                                                         /export/opt/riverbed/18.0/models/std/wireless/wrls_phy_mpath_data_files,
+                                                         /export/opt/riverbed/18.0/models/std/frelay,
+                                                         /export/opt/riverbed/18.0/models/std/rohc,
+                                                         /export/opt/riverbed/18.0/models/std/fddi,
+                                                         /export/opt/riverbed/18.0/models/std/pricing,
+                                                         /export/opt/riverbed/18.0/models/std/pricing/utilities,
+                                                         /export/opt/riverbed/18.0/models/std/tr,
+                                                         /export/opt/riverbed/18.0/models/std/wireless_lan,
+                                                         /export/opt/riverbed/18.0/models/std/sip,
+                                                         /export/opt/riverbed/18.0/models/std/x25,
+                                                         /export/opt/riverbed/18.0/models/std/voice,
+                                                         /export/opt/riverbed/18.0/models/std/sna,
+                                                         /export/opt/riverbed/18.0/models/std/igrp,
+                                                         /export/opt/riverbed/18.0/models/std/zigbee,
+                                                         /export/opt/riverbed/18.0/models/std/fc,
+                                                         /export/opt/riverbed/18.0/models/std/gdc,
+                                                         /export/opt/riverbed/18.0/models/std/cyber,
+                                                         /export/opt/riverbed/18.0/models/std/ethcoax,
+                                                         /export/opt/riverbed/18.0/models/std/dhcp,
+                                                         /export/opt/riverbed/18.0/models/std/h323,
+                                                         /export/opt/riverbed/18.0/models/std/rsvp,
+                                                         /export/opt/riverbed/18.0/models/vendor_models/CheckPoint,
+                                                         /export/opt/riverbed/18.0/models/vendor_models/Dell,
+                                                         /export/opt/riverbed/18.0/models/vendor_models/Hewlett_Packard,
+                                                         /export/opt/riverbed/18.0/models/vendor_models/Newbridge,
+                                                         /export/opt/riverbed/18.0/models/vendor_models/3Com,
+                                                         /export/opt/riverbed/18.0/models/vendor_models/antenna_models,
+                                                         /export/opt/riverbed/18.0/models/vendor_models/Compaq,
+                                                         /export/opt/riverbed/18.0/models/vendor_models/Ascend,
+                                                         /export/opt/riverbed/18.0/models/vendor_models/Foundry_Networks,
+                                                         /export/opt/riverbed/18.0/models/vendor_models/Avici,
+                                                         /export/opt/riverbed/18.0/models/vendor_models/McData,
+                                                         /export/opt/riverbed/18.0/models/vendor_models/Cabletron,
+                                                         /export/opt/riverbed/18.0/models/vendor_models/Xylan,
+                                                         /export/opt/riverbed/18.0/models/vendor_models/NET,
+                                                         /export/opt/riverbed/18.0/models/vendor_models/Huawei,
+                                                         /export/opt/riverbed/18.0/models/vendor_models/Juniper_Networks,
+                                                         /export/opt/riverbed/18.0/models/vendor_models/Nokia,
+                                                         /export/opt/riverbed/18.0/models/vendor_models/Alcatel_Lucent,
+                                                         /export/opt/riverbed/18.0/models/vendor_models/Alteon,
+                                                         /export/opt/riverbed/18.0/models/vendor_models/Intel,
+                                                         /export/opt/riverbed/18.0/models/vendor_models/AMD,
+                                                         /export/opt/riverbed/18.0/models/vendor_models/Coyote_Point,
+                                                         /export/opt/riverbed/18.0/models/vendor_models/Equipe,
+                                                         /export/opt/riverbed/18.0/models/vendor_models/Nec,
+                                                         /export/opt/riverbed/18.0/models/vendor_models/Nortel,
+                                                         /export/opt/riverbed/18.0/models/vendor_models/Extreme,
+                                                         /export/opt/riverbed/18.0/models/vendor_models/Bay_Networks,
+                                                         /export/opt/riverbed/18.0/models/vendor_models/IBM,
+                                                         /export/opt/riverbed/18.0/models/vendor_models/f5,
+                                                         /export/opt/riverbed/18.0/models/vendor_models/Fore_Systems,
+                                                         /export/opt/riverbed/18.0/models/vendor_models/Brocade,
+                                                         /export/opt/riverbed/18.0/models/vendor_models/Cisco_Systems,
+                                                         /export/opt/riverbed/18.0/models/vendor_models/Radware,
+                                                         /export/opt/riverbed/18.0/models/vendor_models/Lucent,
+                                                         /export/opt/riverbed/18.0/models/vendor_models/Sun
+tfile_dir_cache_file                         default     opnet_dir_cache
+tfile_dir_cache                              cmd line    ignore
+noprompt                                     cmd line    TRUE
+opnet_dir                                    shell var   /export/opt/riverbed
+opnet_user_home                              shell var   /home/student/chaganti
+preferences_default_save_location            env. file   Local
+verbose_session_log                          default     FALSE
+java_prog                                    config file /export/opt/riverbed/18.0/jre_modeler/bin/java
+java_prog64                                  config file /export/opt/riverbed/18.0/jre_x64_modeler/bin/java
+3dnv                                         default     FALSE
+3dnv.cleanup_at_the_end                      default     TRUE
+3dnv.fed_file_name                           default     <null>
+3dnv.federation_name                         default     OPNET_3DNV
+3dnv.history_file                            default     <null>
+3dnv.hla_standard                            default     "DOD 1.3"
+3dnv.initialization_delay                    default     1
+3dnv.mapping_argument                        default     <null>
+3dnv.mapping_library                         default     opnet_3dnv_default_mapping
+3dnv.max_request_rate                        default     0
+3dnv.rpr_fom_version                         default     1
+anim_attempts                                default     5
+anim_hist                                    default     <null>
+anim_host                                    default     localhost
+anim_port                                    default     0
+anim_timeout                                 default     3
+anim_view                                    env. file   FALSE
+antenna.spherical_model                      default     Mathematical
+attr_reqs_file                               default     <null>
+auto_disk_space_threshold                    default     1000
+automation_lock_max_wait_time                default     60
+beep_count_confirm                           default     1
+beep_count_error                             default     2
+bind_shobj_flags                             default     <null>
+bind_shobj_flags_32bit                       default     <null>
+bind_shobj_flags_64bit                       env. file   <null>
+bind_shobj_flags_devel                       default     <null>
+bind_shobj_flags_optim                       default     <null>
+bind_shobj_libs                              default     <null>
+bind_shobj_libs_32bit                        default     <null>
+bind_shobj_libs_64bit                        default     <null>
+bind_shobj_libs_devel                        default     <null>
+bind_shobj_libs_optim                        default     <null>
+bind_shobj_prog                              default     bind_so_unix
+c                                            default     FALSE
+c_exclude_standard_models                    default     FALSE
+check_newer_process_model_files              default     TRUE
+comp.no_fin_required_for_state_vars          env. file   TRUE
+comp_flags_32bit                             env. file   <null>
+comp_flags_64bit                             env. file   <null>
+comp_flags_c++_specific                      default     <null>
+comp_flags_c_specific                        env. file   <null>
+comp_flags_common                            env. file   -I/home/student/chaganti/op_models/18.0/models/std/include
+comp_flags_devel                             env. file   -g
+comp_flags_mt                                env. file   <null>
+comp_flags_optim                             env. file   "-O2 -DOPD_NO_DEBUG -DOPD_INLINE_KPS"
+comp_object_files_without_source             default     allow_with_warning
+comp_per_file_errors                         default     FALSE
+comp_per_process_errors                      default     TRUE
+comp_prog                                    env. file   comp_unix
+comp_prog_cpp                                default     comp_unix_cpp
+comp_trace_info                              env. file   kernel-based
+core_dump                                    default     FALSE
+cosim                                        default     <null>
+cosimulation_optimization_mode               default     none
+debug_mk                                     default     FALSE
+default_site_position_cache_time_granularity env. file   0
+des.checkpoint.autogen                       default     <null>
+des.checkpoint.autogen_stop_after_restart    default     TRUE
+des.checkpoint.continue                      default     TRUE
+des.checkpoint.enabled                       default     FALSE
+des.checkpoint.keep_last                     default     0
+des.checkpoint.lowmem                        default     FALSE
+des.checkpoint.verbose                       default     FALSE
+des.log_severity_filter                      env. file   -1
+diag_enable                                  default     FALSE
+display_timezone_string                      default     FALSE
+duration                                     env. file   40
+edit_lock_mode                               default     FALSE
+endsim_memstats                              default     FALSE
+etrace_diff                                  default     <null>
+etrace_dump                                  default     <null>
+etrace_end_time                              default     1e+100
+etrace_start_time                            default     0
+event_order_method                           default     strict
+event_speed_parameter                        default     100000
+file_read_abort_suppress                     default     FALSE
+format_event_ids_with_1000s_separator        default     TRUE
+format_ici_ids_with_1000s_separator          default     TRUE
+format_object_ids_with_1000s_separator       default     TRUE
+format_packet_ids_with_1000s_separator       default     TRUE
+format_process_ids_with_1000s_separator      default     TRUE
+fully_serialized_event_execution_ids         default     TRUE
+fully_serialized_ici_ids                     default     TRUE
+fully_serialized_packet_ids                  default     TRUE
+geocentric_model                             default     right_sphere
+invalid_link_notification                    default     TRUE
+jitd_cmd_line                                default     "xterm -T OPNET_JIT -e gdb -c %d"
+jitd_enable                                  default     FALSE
+kernel_type                                  env. file   optimized
+license_broker_host                          default     <null>
+license_broker_port                          default     <null>
+license_expiration_warning_interval          default     3
+license_group                                default     <null>
+license_http_proxy_password                  default     <not set>
+license_http_proxy_port                      default     80
+license_http_proxy_server                    default     <null>
+license_http_proxy_user                      default     <null>
+license_http_server                          default     license01.opnet.com
+license_http_use_proxy                       default     FALSE
+license_https_enable                         default     TRUE
+license_password                             default     <not set>
+license_ping_old_servers                     default     FALSE
+license_port                                 env. file   port_a
+license_server                               config file license.sdsu.edu
+license_server_standalone                    config file FALSE
+license_server_standalone_diagnose           default     FALSE
+license_simple_loanable_enable               default     TRUE
+license_username                             default     <null>
+livelock_thresh                              default     8192
+log_endsim_perf                              env. file   TRUE
+log_file                                     env. file   wpan_ieee802_15_4-test-DES-1
+log_time_precision                           default     12
+manage_loanable_licenses                     default     FALSE
+max_idle_time_microseconds                   default     1
+max_log_entries                              env. file   200
+memstat_autogen                              default     <null>
+mtn_warn_int                                 default     3
+named_locks                                  default     FALSE
+net_name                                     cmd line    wpan_ieee802_15_4-test
+num_collect_values                           env. file   100
+num_err                                      default     10
+ot_file                                      env. file   wpan_ieee802_15_4-test-DES-1
+ot_file.default_format                       default     write_many
+ot_mem_size                                  default     4
+ov_autogen                                   default     <null>
+ov_diff_tolerance                            default     5
+ov_file                                      env. file   wpan_ieee802_15_4-test-DES-1
+ov_mem_size                                  default     16
+parallel_sim.event_execution_time_window     env. file   0
+parallel_sim.mutex_rank_ignore               default     FALSE
+per_module_random_stream                     default     FALSE
+probe                                        env. file   wpan_ieee802_15_4-test
+probe_error_enable                           default     FALSE
+probe_start_time                             default     -1
+probe_stop_time                              default     -1
+prof_output                                  default     console
+prof_output_separator                        default     <null>
+prof_track                                   default     FALSE
+prof_track_func                              default     <null>
+prof_track_recurse                           default     TRUE
+psnone_tda.bu.closure.closure                default     TRUE
+psnone_tda.bu.collision.num_colls            default     0
+psnone_tda.bu.ecc.pk_accept                  default     TRUE
+psnone_tda.bu.error.num_errors               default     0
+psnone_tda.bu.propdel.prop_delay             default     0
+psnone_tda.bu.txdel.tx_delay                 default     0
+psnone_tda.pt.ecc.pk_accept                  default     TRUE
+psnone_tda.pt.error.num_errors               default     0
+psnone_tda.pt.propdel.prop_delay             default     0
+psnone_tda.pt.txdel.tx_delay                 default     0
+psnone_tda.ra.ber.ber                        default     0
+psnone_tda.ra.bkgnoise.bkgnoise              default     0
+psnone_tda.ra.chanmatch.match_status         default     valid
+psnone_tda.ra.closure.closure                default     TRUE
+psnone_tda.ra.ecc.pk_accept                  default     TRUE
+psnone_tda.ra.error.actual_ber               default     0
+psnone_tda.ra.error.num_errors               default     0
+psnone_tda.ra.power.rcvd_power               default     -1
+psnone_tda.ra.propdel.end_propdel            default     0
+psnone_tda.ra.propdel.start_propdel          default     0
+psnone_tda.ra.ragain.rx_gain                 default     0
+psnone_tda.ra.snr.snr                        default     1000
+psnone_tda.ra.tagain.tx_gain                 default     0
+psnone_tda.ra.txdel.tx_delay                 default     0
+radio_transmission_defer_packet_duplication  default     TRUE
+radio_transmission_on_demand_receiver_groups default     FALSE
+rand_gen_type                                default     Linear-Congruential
+rand_num_ext_res                             default     TRUE
+raw_err                                      default     FALSE
+realtime_ratio                               env. file   0
+rec_err_suppress                             default     FALSE
+record_gstats                                default     FALSE
+script_mode                                  default     none
+script_name                                  default     odb_script
+seed                                         env. file   128
+sim_packet_sharing                           env. file   conservative
+sim_process_priority                         default     normal
+sim_time_quantum                             env. file   0
+site_position_cache_size                     env. file   3
+sitl_realtime_ratio_check                    default     TRUE
+sla_compute_all_violations                   default     FALSE
+split_start_radio_transmission               default     FALSE
+timezone                                     default     "Local Timezone"
+tmm_data_directory                           env. file   <null>
+tmm_data_type                                env. file   "USGS DEM"
+tmm_display_degrees                          default     FALSE
+tmm_include_antenna_height                   default     FALSE
+tmm_load_as_needed                           default     TRUE
+tmm_pathloss_cache_size                      default     2
+tmm_prop_model                               default     <null>
+tmm_prop_param                               default     <null>
+tmm_propagation_specification                default     <null>
+tmm_propagation_zone_ratio                   default     0
+tmm_propagation_zone_resolution              default     100
+tmm_simulate                                 env. file   FALSE
+tmm_terrain_cache_size                       default     10
+tmm_terrain_specification                    default     <null>
+tmm_use_cache                                default     TRUE
+tmm_verbose                                  default     FALSE
+update_interval                              env. file   500000
+updates_in_seconds                           default     FALSE
+user_lock_devname                            default     <null>
+verbose_load                                 env. file   TRUE
+verbose_mk                                   default     FALSE
+verbose_sim                                  env. file   TRUE
+warning_suppress                             default     FALSE

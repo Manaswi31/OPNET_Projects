@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<simulation-sequence base-id="1">
+	<OPNET-info OPNET-release="18.0.2" OPNET-patchlevel="2" OPNET-model-data-version="17.5.B"/>
+	<simset-list>
+		<simset id="0" anim-enabled="no">
+			<simset-attributes>
+				<attribute name="name" type="string" value="scenario"/>
+				<attribute name="network" type="typed file" spectype="4" value="wpan_ieee802_15_4-test"/>
+				<attribute name="probe file" type="typed file" spectype="27" value="wpan_ieee802_15_4-test"/>
+				<attribute name="vector file" type="string" spectype="29" value="wpan_ieee802_15_4-test"/>
+				<attribute name="duration" type="double" value="40"/>
+				<attribute name="environment files" type="textlist"/>
+				<attribute name="anim hist" type="string" spectype="40" value="wpan_ieee802_15_4-test"/>
+				<attribute name="SLA probe files" type="textlist"/>
+				<attribute name="Report probe files" type="textlist"/>
+				<attribute name="duration units" type="string" value="seconds"/>
+				<attribute name="number sim processors" type="integer" value="1"/>
+				<attribute name="kernel_type" type="string" value="optimized"/>
+				<attribute name="mem tag generate list" type="textlist"/>
+				<attribute name="packet sharing" type="enumerated" value="conservative"/>
+				<attribute name="display prefs" type="enumerated" value=""/>
+				<attribute name="comments" type="textlist"/>
+				<attribute name="generate packet info report" type="toggle" value="1"/>
+				<attribute name="checkpoint keep_last_N" type="integer" value="-1"/>
+				<attribute name="TMM legacy info" type="toggle" value="1"/>
+			</simset-attributes>
+			<selected-run-list>
+				<selected-run id="0"/>
+			</selected-run-list>
+			<traffic-trend count="1" units="month" time-gap="1.0" storage-method="each-simulation" import-options="nothing" method="regular-simple" growth-rate="10"/>
+		</simset>
+	</simset-list>
+</simulation-sequence>
